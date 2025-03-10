@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  margin: auto;
+}
+
+#windmill {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  transform: translateX(-50%);
+  cursor: grab;
+  z-index: 9999;
+}
+
+#scenery {
+  width: 1800px;
+  /* height: 600px; */
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 100%;
+  height: auto;
+  transform: translateX(-50%);
+}
