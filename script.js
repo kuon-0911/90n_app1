@@ -1,6 +1,8 @@
 const windmill = document.getElementById('windmill');
 const scenery = document.getElementById('scenery');
 
+// TEST
+
 let isDragging = false;
 let offsetX, offsetY;
 let rotationAngle = 0;
